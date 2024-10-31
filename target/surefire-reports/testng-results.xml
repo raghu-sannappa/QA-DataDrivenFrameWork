@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-31T21:40:08 IST" name="Data Driven Basics" finished-at="2024-10-31T21:40:33 IST" duration-ms="24076">
+    <groups>
+    </groups>
+    <test started-at="2024-10-31T21:40:08 IST" name="LoginTest" finished-at="2024-10-31T21:40:27 IST" duration-ms="18970">
+      <class name="com.canaratechlabs.testcases.LoginTestScreener">
+        <test-method signature="doLogin(java.util.Hashtable)[pri:0, instance:com.canaratechlabs.testcases.LoginTestScreener@305f031]" started-at="2024-10-31T21:40:08 IST" name="doLogin" data-provider="dp" finished-at="2024-10-31T21:40:17 IST" duration-ms="8769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Raghu@19901, email=sannappack@gmail.com, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.util.Hashtable)[pri:0, instance:com.canaratechlabs.testcases.LoginTestScreener@305f031]" started-at="2024-10-31T21:40:18 IST" name="doLogin" data-provider="dp" finished-at="2024-10-31T21:40:26 IST" duration-ms="8982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=gfusydfsd, email=mahesh@gmail.com, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.util.Hashtable)[pri:0, instance:com.canaratechlabs.testcases.LoginTestScreener@305f031]" started-at="2024-10-31T21:40:27 IST" name="doLogin" data-provider="dp" finished-at="2024-10-31T21:40:27 IST" duration-ms="205" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sdsjfbkd, email=radhika@gmail.com, runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test case since run mode set to NO.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test case since run mode set to NO.
+at com.canaratechlabs.testcases.LoginTestScreener.doLogin(LoginTestScreener.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.util.Hashtable)[pri:0, instance:com.canaratechlabs.testcases.LoginTestScreener@305f031]" started-at="2024-10-31T21:40:27 IST" name="doLogin" data-provider="dp" finished-at="2024-10-31T21:40:27 IST" duration-ms="20" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=sdnfjksd, email=vikipedia@gmail.com, runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test case since run mode set to NO.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test case since run mode set to NO.
+at com.canaratechlabs.testcases.LoginTestScreener.doLogin(LoginTestScreener.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.canaratechlabs.testcases.LoginTestScreener -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-10-31T21:40:28 IST" name="OpenAccountTest" finished-at="2024-10-31T21:40:33 IST" duration-ms="5004">
+      <class name="com.canaratechlabs.testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.canaratechlabs.testcases.OpenAccountTest@53e211ee]" started-at="2024-10-31T21:40:03 IST" name="setUp" finished-at="2024-10-31T21:40:08 IST" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.canaratechlabs.testcases.OpenAccountTest@53e211ee]" started-at="2024-10-31T21:40:28 IST" name="openAccountTest" data-provider="dp" finished-at="2024-10-31T21:40:32 IST" duration-ms="4966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Reenteremail=raghu@gturns.com, Password=Raghu@1990, Email=raghu@gturns.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.canaratechlabs.testcases.OpenAccountTest@53e211ee]" started-at="2024-10-31T21:40:33 IST" name="tearDown" finished-at="2024-10-31T21:40:33 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.canaratechlabs.testcases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

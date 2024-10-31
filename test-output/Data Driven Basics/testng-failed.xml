@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <groups>
+      <run>
+        <exclude name="excludeGroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.canaratechlabs.testcases.LoginTestScreener">
+        <methods>
+          <include name="doLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.canaratechlabs.testcases.LoginTestScreener -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

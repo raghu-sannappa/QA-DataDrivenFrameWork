@@ -1,0 +1,45 @@
+2024-10-31 21:40:03 DEBUG appFile:53 - config file loaded.!!!
+2024-10-31 21:40:03 DEBUG appFile:67 - OR file loaded.!!!
+2024-10-31 21:40:07 DEBUG appFile:76 - Chrome Launched Successfully....!!!
+2024-10-31 21:40:08 DEBUG appFile:86 - Navigated to TestSite URL....!!!null
+2024-10-31 21:40:08 DEBUG appFile:25 - Inside doLogin Method....!!!
+2024-10-31 21:40:09 DEBUG appFile:27 - Clicked on InitialLogin Button....!!!
+2024-10-31 21:40:13 DEBUG appFile:40 - Entered Email Id ....!!!
+2024-10-31 21:40:13 DEBUG appFile:42 - Entered Password  ....!!!
+2024-10-31 21:40:13 DEBUG appFile:44 - Clicked on Login button....!!!
+2024-10-31 21:40:17 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-31 21:40:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-31 21:40:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-31 21:40:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-31 21:40:17 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-31 21:40:18 DEBUG appFile:25 - Inside doLogin Method....!!!
+2024-10-31 21:40:18 DEBUG appFile:27 - Clicked on InitialLogin Button....!!!
+2024-10-31 21:40:22 DEBUG appFile:40 - Entered Email Id ....!!!
+2024-10-31 21:40:22 DEBUG appFile:42 - Entered Password  ....!!!
+2024-10-31 21:40:22 DEBUG appFile:44 - Clicked on Login button....!!!
+2024-10-31 21:40:26 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-31 21:40:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-31 21:40:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-31 21:40:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-31 21:40:26 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-31 21:40:27 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-31 21:40:27 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-31 21:40:27 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-31 21:40:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-31 21:40:27 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-31 21:40:28 DEBUG appFile:19 - Clicked on GetFreeAccount Button....!!!
+2024-10-31 21:40:29 DEBUG appFile:22 - Entered Email Id ....!!!null
+2024-10-31 21:40:30 DEBUG appFile:25 - ReEntered EmailId  ....!!!null
+2024-10-31 21:40:31 DEBUG appFile:29 - Entered Password is  ....!!!null
+2024-10-31 21:40:32 DEBUG appFile:31 - Createaccount Button clicked and account created successfully....!!!
+2024-10-31 21:40:32 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-31 21:40:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-31 21:40:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-31 21:40:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-31 21:40:32 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-31 21:40:33 DEBUG appFile:99 - Test Execution Completed..!!
